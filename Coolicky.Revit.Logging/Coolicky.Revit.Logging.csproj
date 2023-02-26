@@ -1,9 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <TargetFrameworks>net47;net48</TargetFrameworks>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>x64</Platforms>
+        <Nullable>disable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Serilog" Version="2.12.0" />
+      <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)' == 'net47'">
+        <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2020.0.1">
+            <PrivateAssets>all</PrivateAssets>
+            <ExcludeAssets>runtime</ExcludeAssets>
+        </PackageReference>
+    </ItemGroup>
+    <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+      <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2021.1.4">
+          <PrivateAssets>all</PrivateAssets>
+          <ExcludeAssets>runtime</ExcludeAssets>
+      </PackageReference>
+    </ItemGroup>
 
 </Project>
