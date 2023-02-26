@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Coolicky.Revit.Logging.Test": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Autodesk\\Revit 2023\\Revit.exe"
+    }
+  }
+}
