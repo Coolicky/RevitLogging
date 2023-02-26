@@ -1,0 +1,10 @@
+﻿<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>Logging Test</Name>
+        <Assembly>PATH\Coolicky.Revit.Logging.Test.dll</Assembly>
+        <AddInId>3C244632-5957-42A7-8902-29DF61E902CC</AddInId>
+        <FullClassName>Coolicky.Revit.Logging.Test.App</FullClassName>
+        <VendorId>Coolicky</VendorId>
+        <VendorDescription>Coolicky, https://github.com/Coolicky</VendorDescription>
+    </AddIn>
+</RevitAddIns>
