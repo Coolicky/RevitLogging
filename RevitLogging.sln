@@ -4,17 +4,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coolicky.Revit.Logging", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{696F49EA-5629-4D8F-B4D1-D0D297F30EE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coolicky.Revit.Logging.Test", "Coolicky.Revit.Logging.Test\Coolicky.Revit.Logging.Test.csproj", "{C5603752-CBBA-4629-B877-42939BDBE2AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{696F49EA-5629-4D8F-B4D1-D0D297F30EE1}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{696F49EA-5629-4D8F-B4D1-D0D297F30EE1}.Release|Any CPU.ActiveCfg = Release|x64
-		{F9EC28A9-F608-478D-8143-60B9BA503387}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{F9EC28A9-F608-478D-8143-60B9BA503387}.Debug|Any CPU.Build.0 = Debug|x64
-		{F9EC28A9-F608-478D-8143-60B9BA503387}.Release|Any CPU.ActiveCfg = Release|x64
-		{F9EC28A9-F608-478D-8143-60B9BA503387}.Release|Any CPU.Build.0 = Release|x64
+		{696F49EA-5629-4D8F-B4D1-D0D297F30EE1}.Debug|x64.ActiveCfg = Debug|x64
+		{696F49EA-5629-4D8F-B4D1-D0D297F30EE1}.Release|x64.ActiveCfg = Release|x64
+		{F9EC28A9-F608-478D-8143-60B9BA503387}.Debug|x64.ActiveCfg = Debug|x64
+		{F9EC28A9-F608-478D-8143-60B9BA503387}.Debug|x64.Build.0 = Debug|x64
+		{F9EC28A9-F608-478D-8143-60B9BA503387}.Release|x64.ActiveCfg = Release|x64
+		{F9EC28A9-F608-478D-8143-60B9BA503387}.Release|x64.Build.0 = Release|x64
+		{C5603752-CBBA-4629-B877-42939BDBE2AA}.Debug|x64.ActiveCfg = Debug|x64
+		{C5603752-CBBA-4629-B877-42939BDBE2AA}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 EndGlobal

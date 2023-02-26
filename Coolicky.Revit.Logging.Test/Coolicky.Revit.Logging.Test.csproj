@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>disable</Nullable>
+        <Configurations>Release;Debug</Configurations>
+        <Platforms>x64</Platforms>
+        <UseWpf>true</UseWpf>
+        <TargetFramework>net48</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2023.0.0" />
+    </ItemGroup>
+    
+</Project>
